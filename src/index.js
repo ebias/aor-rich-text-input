@@ -19,13 +19,10 @@ class RichTextInput extends Component {
             theme: 'snow',
             formats: [
                 'bold',
-                'header',
                 'italic',
                 'link',
                 'list',
-                'blockquote',
-                'image',
-                'indent'
+                'blockquote'
             ]
         });
 
