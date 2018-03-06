@@ -17,6 +17,16 @@ class RichTextInput extends Component {
         this.quill = new Quill(this.divRef, {
             modules: { toolbar },
             theme: 'snow',
+            formats: [
+                'bold',
+                'header',
+                'italic',
+                'link',
+                'list',
+                'blockquote',
+                'image',
+                'indent'
+            ]
         });
 
         this.quill.pasteHTML(value);
